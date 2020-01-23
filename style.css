@@ -32,7 +32,9 @@ a
   box-sizing: border-box;
 }
 
-
+a{
+	color:#0b548a;
+}
 
 
 
@@ -87,7 +89,7 @@ a
 .coverimage{
 	border-radius: 50%;
 	float: right;
-	margin-right: 150px;
+	margin-right: 100px;
 	max-width: 250px;
 	max-height: 250px;
 }
