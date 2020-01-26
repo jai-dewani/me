@@ -78,7 +78,7 @@ a{
 	height:650px;
 	padding: 50px;
 	color: #343434;
-	font-size:30px;
+	font-size:35px;
 	font-style:bold;
 	padding-top: 100px;
 	/* margin-left: 50px; */
@@ -93,9 +93,11 @@ a{
 .coverimage{
 	border-radius: 50%;
 	float: right;
-	margin-right: 100px;
-	max-width: 250px;
-	max-height: 250px;
+	padding: 25px;
+	margin-right: 25px;
+	margin-top: 50px;
+	max-width: 300px;
+	max-height: 300px;
 }
 .education{
 	font-size: 20px;
