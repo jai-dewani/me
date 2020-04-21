@@ -50,7 +50,7 @@ a{
 	top: 0;
 	background-color: #FFFFFF;
 	margin-top: -40px;
-	font-size: 1.7vw;
+	font-size: 20px;
 }
 
 
@@ -58,7 +58,7 @@ a{
 	float: left;
 	color: #444;
 	text-align: center;
-	padding: 14px 15px;
+	padding: 14px 25px;
 	text-decoration: none;
 	font-weight: 900;
 }
@@ -75,7 +75,7 @@ a{
 }
 #intro
 {
-	height:650px;
+	min-height:650px;
 	padding: 50px;
 	color: #343434;
 	font-size:35px;
