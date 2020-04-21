@@ -43,15 +43,16 @@ a{
 
 
 .topnav{
-	margin: 0 -50px;
-	padding: 0 80px;
+	margin: 0 -2vw;
+	align-items: center;
 	overflow: hidden;
-	position: fixed;
+	position: sticky;
 	top: 0;
-	width: 100%;
 	background-color: #FFFFFF;
-	/* margin-bottom: 20px; */
+	margin-top: -40px;
+	font-size: 1.7vw;
 }
+
 
 .topnav a{
 	float: left;
@@ -59,7 +60,6 @@ a{
 	text-align: center;
 	padding: 14px 15px;
 	text-decoration: none;
-	font-size: 20px;
 	font-weight: 900;
 }
 
