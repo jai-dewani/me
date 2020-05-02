@@ -4,7 +4,8 @@ html
 }
 body {
 	font-family: Helvetica, Arial, sans-serif;
-	margin: 50px;
+	margin: 0px;
+	padding: 0px;
 }
 h1
 {
@@ -32,6 +33,7 @@ a
 
 * {
   box-sizing: border-box;
+  font-family: 'Josefin Sans';
 }
 
 a{
@@ -41,16 +43,23 @@ a{
 	font-size: 23px;
 }
 
+.con{
+	width: 100%;
+	position: fixed;
+}
 
 .topnav{
-	margin: 0 -2vw;
+	font-family: 'Josefin Sans';
+	width: fit-content;
+	margin: 0 auto;
 	align-items: center;
 	overflow: hidden;
 	position: sticky;
 	top: 0;
 	background-color: #FFFFFF;
-	margin-top: -40px;
+	margin-top: -50px;
 	font-size: 20px;
+	padding:0 80px;
 }
 
 
@@ -58,14 +67,15 @@ a{
 	float: left;
 	color: #444;
 	text-align: center;
-	padding: 14px 25px;
+	padding: 14px 20px;
 	text-decoration: none;
 	font-weight: 900;
 }
 
 .topnav a:hover {
 	background-color: rgb(223, 223, 223);
-	color: #000;
+	text-decoration: none;
+	color:#007bff;
 }
 #github{
 	font-style: italic;
@@ -81,7 +91,6 @@ a{
 	font-size:35px;
 	font-style:bold;
 	padding-top: 100px;
-	/* margin-left: 50px; */
 	
 }
 .section{
@@ -111,10 +120,24 @@ a{
 	margin:-50px;
 	height: 7px;
 }
-
-
-
-
+#intro{
+	margin: 50px;
+}
+#education{
+	margin: 50px;
+}
+#workex{
+	margin: 50px;
+}
+#skills{
+	margin:50px;
+}
+#achievements{
+	margin:50px;
+}
+#contact{
+	margin:50px
+}
 
 
 .widgets_div {

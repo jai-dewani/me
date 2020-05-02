@@ -1,0 +1,88 @@
+#heading{
+    margin: 50px;
+    /* text-decoration: underline; */
+    font-family:  'Josefin Sans'
+    /* font-style: italic; */
+}
+
+.date{
+    text-align: right;
+    font-style: oblique;
+    font-size: 17px;
+    /* text-; */
+}
+
+.blog{
+    text-align: left;
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+}
+
+html
+{
+  scroll-behavior: smooth;
+}
+a
+{
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	/* margin: 50px; */
+}
+
+.con{
+	width: 100%;
+}
+
+.topnav{
+	font-family: 'Josefin Sans';
+	width: fit-content;
+	margin: 0 auto;
+	align-items: center;
+	overflow: hidden;
+	position: sticky;
+	top: 0;
+	background-color: #FFFFFF;
+	/* margin-top: -40px; */
+	font-size: 20px;
+}
+
+
+.topnav a{
+	float: left;
+	color: #444;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+	font-weight: 900;
+}
+
+.topnav a:hover {
+	background-color: rgb(223, 223, 223);
+    text-decoration: none;
+}
+
+#footer{
+    width: 99%;
+    position: absolute;
+    bottom: 10px;
+}
+
+#bottom{
+    /* position: absolute; */
+    /* bottom: 0; */
+    width: fit-content;
+    margin-top:20px;
+    margin: 0 auto;
+    font-size: 30px;
+
+}
+#body{
+    width: 99%;
+}
