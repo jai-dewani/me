@@ -13,8 +13,6 @@ class Home extends Component {
                     <img src={profilepic} className="profilepic" alt="profilepic"></img>
                     <h2 className="center">Hi I am Jai Kumar Dewani, A Final year student aiming to become a Software Developer after graduating</h2>
                     <Skills/>
-                </div>
-                <div className="socialparent">
                     <Social />
                 </div>
             </div>
