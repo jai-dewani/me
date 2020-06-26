@@ -35,7 +35,6 @@ nav
 }
 .home
 {
-  /* padding: 100px; */
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -77,19 +76,9 @@ h1,h2,h3,h4,p{
 .social
 {
   position: absolute;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   display: flex;
-  bottom: 40px;
-}
-.social i
-{
-  padding-right: 30px;
-  font-size: 25px;
-  color: #000;
-}
-.social i:hover
-{
-  color: #000;
+  bottom: 20px;
 }
 .social img 
 {
@@ -121,6 +110,54 @@ h1,h2,h3,h4,p{
   margin:30px;
 }
 
+.center{
+  text-align: center;
+}
+.skillCards{
+  margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f4f5f9;
+  justify-content: space-around;
+}
+.skill{
+  padding: 5px 10px 5px 10px;
+  background-color: #eee;
+  justify-content: center;
+  width: fit-content;
+  height: fit-content;
+  text-align: center;
+  margin: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid #777;
+}
+.skill:hover{
+  background-color: #fff;
+}
+.expPoints{
+  margin-left: 10px;
+}
+.aboutme{
+  padding-right: 150px;
+}
+
+.resume{
+  position: absolute;
+  /* margin-top: 20px; */
+  display: flex;
+  top: 20px;
+  right: 20px;
+}
+.resume img 
+{
+  width: 15px;
+  height: 15px;
+  margin-bottom: -2px;
+}
+.resume a{
+  color:black;
+  font-size: 15px;
+}
 @media all and (max-width: 700px) {
   :root {
     --fontsize-nav:1rem;
@@ -173,40 +210,17 @@ h1,h2,h3,h4,p{
   .social img{
     padding-right: 0px;
   }
+  .aboutme{
+    padding-right: 0;
+  }
+  .resume{
+    position: absolute;
+    /* margin-top: 20px; */
+    display: flex;
+    top: 50px;
+    right: 20px;
+  }
 }
-
-.center{
-  text-align: center;
-}
-.skillCards{
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
+.rootHome{
   background-color: #f4f5f9;
-  justify-content: space-around;
-}
-.skill{
-  padding: 5px 10px 5px 10px;
-  background-color: #eee;
-  justify-content: center;
-  width: fit-content;
-  height: fit-content;
-  text-align: center;
-  margin: 5px 10px;
-  border-radius: 10px;
-  border: 1px solid #777;
-}
-.skill:hover{
-  background-color: #fff;
-}
-.expPoints{
-  margin-left: 10px;
-}
-.rootHome
-{
-  display: flex;
-  flex-direction: column;
-}
-.aboutme{
-  padding-right: 150px;
 }
