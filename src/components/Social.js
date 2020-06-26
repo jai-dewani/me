@@ -11,25 +11,25 @@ class Social extends Component {
     render() {
         return (
             <div class="social">
-                <a href="mailto:jai.dewani.99@gmail.com" target="_blank" rel="noopener noreferrer">
+                <a href="mailto:jai.dewani.99@gmail.com" target="_blank" rel="noopener noreferrer preload">
                     <img src={envelope} alt="envelope" />
                 </a>
-                <a href="https://github.com/jai-dewani" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/jai-dewani" target="_blank" rel="noopener noreferrer preload">
                     <img src={github} alt="github" />
                 </a>
-                <a href="https://Linkedin.com/in/jai-dewani" target="_blank" rel="noopener noreferrer">
+                <a href="https://Linkedin.com/in/jai-dewani" target="_blank" rel="noopener noreferrer preload">
                     <img src={linkedin} alt="linkedin" />
                 </a>
-                <a href="https://twitter.com/jai_dewani" target="_blank" rel="noopener noreferrer">
+                <a href="https://twitter.com/jai_dewani" target="_blank" rel="noopener noreferrer preload">
                     <img src={twitter} alt="twitter" />
                 </a>
-                <a href="https://Instagram.com/jai_dewani" target="_blank" rel="noopener noreferrer">
+                <a href="https://Instagram.com/jai_dewani" target="_blank" rel="noopener noreferrer preload">
                     <img src={instagram} alt="instagram" />
                 </a>
-                <a href="https://www.codechef.com/users/jai_dewani" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.codechef.com/users/jai_dewani" target="_blank" rel="noopener noreferrer preload">
                     <img src={codechef} alt="codechef" />
                 </a>
-                <a href="https://codeforces.com/profile/jai_dewani" target="_blank" rel="noopener noreferrer">
+                <a href="https://codeforces.com/profile/jai_dewani" target="_blank" rel="noopener noreferrer preload">
                     <img src={codeforces} alt="codechef" />
                 </a>
             </div>
