@@ -27,6 +27,9 @@ class Navbar extends Component {
             <Navitem item="Education" tolink="/education"  activec={this.activeitem}></Navitem>
             <Navitem item="Experience" tolink="/experience"  activec={this.activeitem}></Navitem>
             <Navitem item="Contact" tolink="/contact"  activec={this.activeitem}></Navitem>
+            <li>
+                <a href="https://blogs.jaid.tech/" target="_blank" rel="noopener noreferrer">Blogs</a>   
+            </li>
             </ul>
             </nav>
             )

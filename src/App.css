@@ -75,7 +75,7 @@ h1,h2,h3,h4,p{
 }
 .social
 {
-  position: absolute;
+  position: fixed;
   /* margin-top: 20px; */
   display: flex;
   bottom: 20px;
@@ -158,6 +158,13 @@ h1,h2,h3,h4,p{
   color:black;
   font-size: 15px;
 }
+.rootHome{
+  background-color: #f4f5f9;
+  padding: 0 80px;
+}
+.contact a{
+  color: black;
+}
 @media all and (max-width: 700px) {
   :root {
     --fontsize-nav:1rem;
@@ -178,17 +185,25 @@ h1,h2,h3,h4,p{
   {
     padding: 25px ;
   }
+  .nav::-webkit-scrollbar {
+    display: none;
+  }
   nav
   {
-    padding:0px 5% 0px 5% ;
+    padding:0;
     flex:var(--sidebar-flex);
-    width: 90vw;
+    /* width: 90vw; */
     background: rgb(238,103,143);
     background: linear-gradient(180deg, rgba(238,103,143,1) 50%, rgba(132,124,252,1) 80%);
+    overflow: scroll;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
   }
   nav ul
   {
     display: flex;
+    margin: 0;
+    /* justify-content: space-evenly; */
   }
   nav ul li
   {
@@ -220,7 +235,8 @@ h1,h2,h3,h4,p{
     top: 50px;
     right: 20px;
   }
-}
-.rootHome{
-  background-color: #f4f5f9;
+  .rootHome{
+    background-color: #f4f5f9;
+    padding: 0;
+  }
 }
