@@ -1,19 +1,24 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/348a2d65-1fc0-4945-8038-00100432a2e1/deploy-status)](https://app.netlify.com/sites/jai-dewani/deploys)
 
-## My Portfolio built using React Js
+# Portfolio built using React Js
 
-Clone or Download the project
+### Steps to run the project locally: 
+- Clone the project
+```
+git clone https://github.com/jai-dewani/jai-dewani.github.io.git
+```
 
-Open the project in vscode
+- Open folder in VSCode 
+```
+cd jai-dewani.github.io
+code .
+```
 
-Open Terminal
+- Run the following commands
+```
+npm install
+npm start
+```
 
-Type the below commands
-
-$ cd Portfolio_Website_React JS
-
-$ npm install
-
-$ npm start
-
-That's all !
+That's all! The website should run locally with no errors, feel free to use this as a template and make changes into it for your own Protfolio.  
+PS: Let me know if you upgrade it in any way, would love to see it!
