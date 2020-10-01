@@ -1,13 +1,9 @@
 import React, { Component } from 'react';
-// import ReactTypingEffect from 'react-typing-effect';
 import Social from '../components/Social';
 import Resume from '../components/Resume';
 
 import Skills from './Skills';
 import small from '../img/Jai-small.jpg';
-// import medium from '../img/Jai-medium.jpg';
-// import large from '../img/Jai-large.jpg';
-// import profilepic from '../img/Jai.jpg';
 
 class Home extends Component {
     render() {
