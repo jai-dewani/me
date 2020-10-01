@@ -16,6 +16,7 @@ body{
 }
 .App
 {
+  background-color: #f4f5f9;
   display: flex;
   width: 100vw;
   min-height: 100vh;
@@ -162,6 +163,7 @@ h1,h2,h3,h4,p{
 .rootHome{
   background-color: #f4f5f9;
   padding: 0 80px;
+  margin: 0 auto;
 }
 .contact a{
   color: black;
@@ -174,6 +176,7 @@ h1,h2,h3,h4,p{
   }
   .App
   {
+    background-color: #f4f5f9;
     flex-direction: column;
   }
   .sidebar
