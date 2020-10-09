@@ -13,7 +13,7 @@ import Experience from './contents/Experience';
 
 
 import ReactGA from 'react-ga';
-ReactGA.initialize('UA-168137025-1');
+ReactGA.initialize('UA-168137025-2');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 function App() {
