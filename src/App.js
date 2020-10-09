@@ -12,6 +12,10 @@ import Contact from './contents/Contact';
 import Experience from './contents/Experience';
 
 
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-168137025-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
+
 function App() {
   return (
     <Router>
