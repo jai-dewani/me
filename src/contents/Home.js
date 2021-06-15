@@ -10,14 +10,13 @@ class Home extends Component {
         return (
             <div className="rootHome">
                 <div className="condiv home">
-                    {/* <img  src={small} srcSet={`${small} 300w, ${medium} 768w`} alt="profile pic" /> */}
                     <img src={small} className="profilepic" alt="profilepic"></img>
                     <h2 className="center">
-                        Hey! I am Jai Kumar Dewani, <br></br>
-                        A final year CSE Undergraduate aiming to become a Software Developer<br></br>
+                        Hey! I am Jai Kumar Dewani, <br/>
+                        A final year CSE Undergraduate aiming to become a Software Developer<br/>
                         Welcome to my portfolio!
                     </h2>
-                    <Skills/>
+                    {/* <Skills/> */}
                     <Social />
                     <Resume />
                 </div>
