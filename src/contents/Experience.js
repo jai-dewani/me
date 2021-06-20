@@ -24,15 +24,15 @@ class Experience extends Component {
 				<h1 className="subtopic">My Experience</h1>
 				<Expcard title="FullStack Intern | Carl Zeiss" 
 					where="Work from home (Banglore)"
-					from="Jan 2021" to="June 2021"
+					from="January 2021" to="June 2021"
 					points={this.zeiss} />
 				<Expcard title="Workshop Trainer Intern" 
 					where="Directi Camp, IIIT Naya Raipur" 
-					from="May '19" to="June '19" 
+					from="May 2019" to="June 2019" 
 					points={this.directi} />
 				<Expcard title="Co-Founder at TSOC" 
 					where="IIIT Naya Raipur" 
-					from="Jan '18" to="" 
+					from="January 2018" to="April 2020" 
 					points={this.tsoc} />
 					
 			</div>
