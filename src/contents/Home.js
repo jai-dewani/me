@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Social from '../components/Social';
 import Resume from '../components/Resume';
 
-import Skills from './Skills';
 import small from '../img/Jai-small.jpg';
 import wave from "../img/wave.gif";
 class Home extends Component {
