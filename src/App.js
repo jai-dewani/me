@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 import {
-  HashRouter as Router,
-  // BrowserRouter as Router,
+  // HashRouter as Router,
+  BrowserRouter as Router,
   Route,
 } from "react-router-dom";
 import Navbar from './components/Navbar';
@@ -25,16 +25,16 @@ function App() {
         <Route exact path="/">
           <Home />
         </Route>
-        <Route path="/about">
+        <Route exact path="/about">
           <About />
         </Route>
-        <Route path="/education">
+        <Route exact path="/education">
           <Education />
         </Route>
-        <Route path="/contact">
+        <Route exact path="/contact">
           <Contact />
         </Route>
-        <Route path="/experience">
+        <Route exact path="/experience">
           <Experience />
         </Route>
       </div>
