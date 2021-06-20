@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/348a2d65-1fc0-4945-8038-00100432a2e1/deploy-status)](https://app.netlify.com/sites/jai-dewani/deploys)
+[![Deplyment status](https://github.com/jai-dewani/me/actions/workflows/deploy.yml/badge.svg)](https://github.com/jai-dewani/me/actions/workflows/deploy.yml)
 
 # Portfolio built using React Js
 
