@@ -16,7 +16,7 @@ class Widecard extends Component {
 					<h2>{this.props.title}</h2>
 					<div class="exp-info">
 						<h4 class="location">{this.props.where}</h4>
-						<h4 class="duraction">From {this.props.from} - {this.props.to}</h4>
+						<h4 class="duraction">{this.props.from} - {this.props.to}</h4>
 					</div>
 					<ul className="exp-detail">
 						{ this.points }
