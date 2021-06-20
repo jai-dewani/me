@@ -2,7 +2,7 @@ name: Deploying on gh-pages
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   deploy:
     runs-on: ubuntu-latest
