@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/me/static/css/main.ae28d0e0.chunk.css",
+    "main.js": "/me/static/js/main.050ad17a.chunk.js",
+    "main.js.map": "/me/static/js/main.050ad17a.chunk.js.map",
+    "runtime-main.js": "/me/static/js/runtime-main.c5199b1f.js",
+    "runtime-main.js.map": "/me/static/js/runtime-main.c5199b1f.js.map",
+    "static/js/2.cc8a8f9f.chunk.js": "/me/static/js/2.cc8a8f9f.chunk.js",
+    "static/js/2.cc8a8f9f.chunk.js.map": "/me/static/js/2.cc8a8f9f.chunk.js.map",
+    "index.html": "/me/index.html",
+    "precache-manifest.e209969e5f6adc26e9476bd6ada9ffbd.js": "/me/precache-manifest.e209969e5f6adc26e9476bd6ada9ffbd.js",
+    "service-worker.js": "/me/service-worker.js",
+    "static/css/main.ae28d0e0.chunk.css.map": "/me/static/css/main.ae28d0e0.chunk.css.map",
+    "static/js/2.cc8a8f9f.chunk.js.LICENSE": "/me/static/js/2.cc8a8f9f.chunk.js.LICENSE",
+    "static/media/Jai-small.jpg": "/me/static/media/Jai-small.65143172.jpg",
+    "static/media/arrow-right.svg": "/me/static/media/arrow-right.487c4665.svg",
+    "static/media/codechef.svg": "/me/static/media/codechef.7887c80e.svg",
+    "static/media/codeforces.svg": "/me/static/media/codeforces.70ad20d6.svg",
+    "static/media/envelope.svg": "/me/static/media/envelope.39c094f9.svg",
+    "static/media/github.svg": "/me/static/media/github.f5a069d2.svg",
+    "static/media/instagram.svg": "/me/static/media/instagram.6f7f616f.svg",
+    "static/media/linkedin-in.svg": "/me/static/media/linkedin-in.22bd1739.svg",
+    "static/media/twitter.svg": "/me/static/media/twitter.0729c42a.svg",
+    "static/media/wave.gif": "/me/static/media/wave.60d84743.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c5199b1f.js",
+    "static/js/2.cc8a8f9f.chunk.js",
+    "static/css/main.ae28d0e0.chunk.css",
+    "static/js/main.050ad17a.chunk.js"
+  ]
+}
