@@ -24,9 +24,11 @@ class Navbar extends Component {
             <ul>
             <Navitem item="Home" tolink=""  activec={this.activeitem}></Navitem>
             <Navitem item="About" tolink="about"  activec={this.activeitem}></Navitem>
-            <Navitem item="Education" tolink="education"  activec={this.activeitem}></Navitem>
+            <Navitem item="Projects" tolink="projects"  activec={this.activeitem}></Navitem>
             <Navitem item="Experience" tolink="experience"  activec={this.activeitem}></Navitem>
+            <Navitem item="Education" tolink="education"  activec={this.activeitem}></Navitem>
             <Navitem item="Contact" tolink="contact"  activec={this.activeitem}></Navitem>
+
             <li>
                 <a href="https://jai-dewani.github.io/blogs/" target="_blank" rel="noopener noreferrer">Blogs</a>   
             </li>

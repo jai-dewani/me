@@ -11,7 +11,7 @@ import About from './contents/About';
 import Education from './contents/Education';
 import Contact from './contents/Contact';
 import Experience from './contents/Experience';
-
+import Projects from './contents/Projects';
 
 import ReactGA from 'react-ga';
 ReactGA.initialize('UA-168137025-2');
@@ -30,6 +30,9 @@ function App() {
         </Route>
         <Route exact path="/education">
           <Education />
+        </Route>
+        <Route exact path="/projects">
+          <Projects />
         </Route>
         <Route exact path="/contact">
           <Contact />

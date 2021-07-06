@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Expcard from '../components/Expcard';
+import Widecard from '../components/Widecard';
 
 class Experience extends Component {
 	constructor(props){
@@ -22,15 +22,15 @@ class Experience extends Component {
 		return (
 			<div className="condiv">
 				<h1 className="subtopic">My Experience</h1>
-				<Expcard title="FullStack Intern | Carl Zeiss" 
+				<Widecard title="FullStack Intern | Carl Zeiss" 
 					where="Work from home (Banglore)"
 					from="January 2021" to="June 2021"
 					points={this.zeiss} />
-				<Expcard title="Workshop Trainer Intern" 
+				<Widecard title="Workshop Trainer Intern" 
 					where="Directi Camp, IIIT Naya Raipur" 
 					from="May 2019" to="June 2019" 
 					points={this.directi} />
-				<Expcard title="Co-Founder at TSOC" 
+				<Widecard title="Co-Founder at TSOC" 
 					where="IIIT Naya Raipur" 
 					from="January 2018" to="April 2020" 
 					points={this.tsoc} />
